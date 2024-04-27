@@ -1,0 +1,19 @@
+.dashboard h1 {
+    padding: 50px;
+    text-align: center;
+    color: #ff8769;
+}
+.box {
+    padding: 50px;
+    border-radius: 30px;
+    border: 2px solid #ff8769 ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dashboard a {
+    color: white;
+    background: #ff8769 ;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,895 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.responsive-navbar {
+  display: none;
+  background: black;
+}
+.responsive-navbar a {
+  font-size: 30px;
+  display: block;
+  text-align: left;
+  margin-bottom: 0px;
+  padding: 15px 20px;
+  color: #fff;
+  border-bottom: 1px solid #2b2b2b;
+}
+.menu {
+  border: none;
+  background: none;
+  font-size: 15px;
+  color: white;
+  padding-top: 10px;
+  font-weight: bold;
+  display: none;
+}
+.header {
+  background: url(../assets/bank1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+}
+.nav-links {
+  padding-top: 10px;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 20px;
+  color: white;
+  margin-bottom: 150px;
+}
+.nav-content a {
+  margin-left: 20px;
+  color: white;
+}
+.nav-content span {
+  font-family: cursive;
+}
+.nav-content h2 {
+  font-family: serif;
+}
+.home-content {
+  color: white;
+  padding-left: 100px;
+}
+.home-content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+.home-content h3 {
+  width: 450px;
+  margin-bottom: 30px;
+}
+.loan-btn {
+  margin-left: 100px;
+  margin-right: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.loan-btn:hover {
+  background: rgb(68, 63, 63);
+  color: white;
+  border: 2px solid rgb(68, 63, 63);
+}
+.savings-btn {
+  padding: 15px;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+}
+.savings-btn:hover {
+  background: white;
+  color: black;
+  text-align: center;
+}
+.section {
+  display: flex;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  background: silver;
+}
+.section h3 {
+  font-size: 15px;
+  margin-top: 2px;
+}
+.section h4 {
+  margin-left: 20px;
+  margin-top: 2px;
+  font-weight: 200;
+}
+.section a {
+  margin-left: 5px;
+  color: black;
+  text-decoration: underline;
+  font-weight: 200;
+}
+.next p {
+  font-weight: lighter;
+  font-size: 50px;
+  padding: 25px;
+  text-align: center;
+}
+.loan-sect {
+  display: flex;
+  height: 500px;
+  margin-bottom: 40px;
+}
+.loan-img {
+  background: url(../assets/loan.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.loan-content {
+  background: rgb(248, 248, 91);
+  width: 50%;
+  padding: 50px;
+}
+.loan-content H4 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: lighter;
+  width: 80%;
+}
+.loan-content p {
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  width: 70%;
+}
+.loan-content button {
+  padding: 15px;
+  border: 2px solid black;
+  background: none;
+  border-radius: 5px;
+}
+.loan-content button:hover {
+  background: black;
+  color: white;
+}
+/* Abous-us section */
+.about-us {
+  background: url(../assets/about.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+}
+.empty {
+  width: 50%;
+}
+.about-us-content {
+  align-items: center;
+  width: 50%;
+  color: white;
+  padding-left: 58px;
+}
+.about-us-content H4 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 50px;
+}
+.about-us-content p {
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 20px;
+  width: 75%;
+  padding-right: 20px;
+}
+.about-us-content button {
+  padding: 15px;
+  border: 2px solid white;
+  background: none;
+  border-radius: 5px;
+  color: white;
+}
+.about-us-content button:hover {
+  background: white;
+  color: black;
+}
+/* Savings */
+.savings {
+  display: flex;
+}
+.savings-left {
+  background: skyblue;
+  width: 50%;
+  height: 500px;
+  padding: 50px;
+}
+.savings-right {
+  background: url(../assets/savings.jpg);
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.savings-left H4 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: lighter;
+  width: 80%;
+}
+.savings-left p {
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  width: 70%;
+}
+.savings-left button {
+  padding: 15px;
+  border: 2px solid black;
+  background: none;
+  border-radius: 5px;
+}
+.savings-left button:hover {
+  background: black;
+  color: white;
+}
+/* section.read */
+.read {
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.read H4 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.read p {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  width: 50%;
+}
+.filter {
+  background: silver;
+  height: 100px;
+}
+/* Story image section */
+.story-image {
+  display: flex;
+  flex-direction: column;
+}
+.story-image-container {
+  display: flex;
+}
+.story-img-left {
+  background: url(../assets/empower.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 25%;
+}
+.story-text {
+  width: 25%;
+  padding: 50px;
+  background: rgb(248, 248, 91);
+  height: 500px;
+}
+.story-text H4 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: lighter;
+  width: 90%;
+}
+.story-text P {
+  margin-bottom: 30px;
+  text-align: LEFT;
+  font-size: 20px;
+  line-height: 30px;
+}
+.story-text a {
+  color: black;
+  font-size: 12px;
+}
+.story-img-right {
+  background: url(../assets/homeless.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 25%;
+}
+.story-text-right {
+  width: 25%;
+  padding: 50px;
+  background: skyblue;
+  height: 500px;
+}
+.story-text-right H4 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: lighter;
+  width: 90%;
+}
+.story-text-right P {
+  margin-bottom: 30px;
+  text-align: LEFT;
+  font-size: 20px;
+  line-height: 30px;
+}
+.story-text-right a {
+  color: black;
+  font-size: 12px;
+}
+.story-text-down {
+  padding: 50px;
+  width: 25%;
+  background: #ff8769;
+  height: 500px;
+}
+.story-img-down {
+  background: url(../assets/Therapy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 25%;
+}
+.story-text-down h4 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.story-text-down p {
+  margin-bottom: 30px;
+  text-align: LEFT;
+  font-size: 20px;
+  line-height: 30px;
+}
+.story-text-down a {
+  color: black;
+  font-size: 12px;
+}
+.story-text-down-right {
+  width: 25%;
+  background: rgb(126, 241, 193);
+  padding: 50px;
+  height: 500px;
+  word-wrap: break-word;
+}
+.story-text-down-right h4 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.story-text-down-right p {
+  margin-bottom: 30px;
+  text-align: LEFT;
+  font-size: 20px;
+  line-height: 30px;
+}
+.story-text-down-right a {
+  color: black;
+  font-size: 12px;
+}
+.story-img-down2 {
+  background: url(../assets/surgery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 25%;
+}
+/* Value section */
+.values {
+  padding: 50px;
+  background: silver;
+}
+.values h4 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: center;
+}
+.value-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.logo1 {
+  background: url(../assets/banklogo1.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+.logo2 {
+  background: url(../assets/banklogo2.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+.logo3 {
+  background: url(../assets/banklogo3.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+.logo4 {
+  background: url(../assets/banklogo4.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+.logo5 {
+  background: url(../assets/banklogo5.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+.loan-savings {
+  text-align: center;
+  padding: 50px;
+}
+.ourloan-btn {
+  background: black;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.oursavings-btn {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.ourloan-btn:hover {
+  background: white;
+  color: black;
+}
+.oursavings-btn:hover {
+  background: black;
+  color: white;
+}
+/* Newsletter */
+.newsletter {
+  display: flex;
+}
+.newsletter-text {
+  background-color: #ff8769;
+  width: 50%;
+  padding: 50px;
+  color: white;
+}
+.newsletter-text h4 {
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 2.25rem;
+}
+.newsletter-text p {
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+  width: 80%;
+}
+.newsletter-text a {
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+  color: white;
+  text-decoration: underline;
+}
+.newsletter-text a:hover {
+  color: black;
+}
+.newsletter-form {
+  padding: 50px;
+}
+.newsletter-form input {
+  padding: 10px;
+  display: block;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.newsletter-form button {
+  padding: 20px;
+  background: #ff8769;
+  color: white;
+  border-radius: 5px;
+  border-color: #ff8769;
+  font-weight: 600;
+  font-size: 15px;
+}
+.newsletter-form button:hover {
+  background: black;
+  border-color: black;
+}
+
+/* Contacts */
+.contacts {
+  display: flex;
+  padding: 50px;
+  gap: 80px;
+}
+.contacts h4 {
+  margin-bottom: 50px;
+}
+.contacts p {
+  margin-bottom: 30px;
+  width: 50%;
+  line-height: 25px;
+}
+.contacts h6 {
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.contacts a:hover {
+  text-decoration: underline;
+}
+.contacts a {
+  color: black;
+  font-size: 15px;
+  display: inline-block;
+}
+.contact {
+  width: 25%;
+}
+.info-link {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contacts h4::after {
+  display: block;
+  content: "";
+  width: 60px;
+  border-bottom: 2px solid #d2d2d2;
+  margin-top: 15px;
+}
+
+@media (max-width: 1200px) {
+  * {
+    max-width: 100%;
+  }
+  .home-content {
+    padding-left: 50px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 90px;
+  }
+  .home-content h1 {
+    font-size: 50px;
+    margin-top: 100px;
+  }
+  .home-content h3 {
+    width: 85%;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .loan-btn {
+    margin-left: 50px;
+  }
+  .section {
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  .section h4 {
+    font-weight: 300;
+    width: 90%;
+  }
+  .next p {
+    font-size: 35px;
+    padding: 50px;
+    font-weight: 200;
+  }
+  .loan-sect {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .loan-img {
+    height: 300px;
+    width: 100%;
+    padding-bottom: 50px;
+    padding: 200px;
+  }
+  .loan-content {
+    width: 100%;
+  }
+  .loan-content h4 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .loan-content p {
+    width: 100%;
+  }
+  .loan-content button {
+    width: 100%;
+  }
+  .empty {
+    display: none;
+  }
+  .about-us {
+    height: 500px;
+    margin-top: 300px;
+  }
+  .about-us-content {
+    height: 100px;
+    width: 100%;
+  }
+  .about-us p {
+    width: 100%;
+  }
+  .about-us button {
+    width: 80%;
+  }
+  .savings {
+    flex-direction: column;
+  }
+  .savings-left {
+    width: 100%;
+    height: 500px;
+  }
+  .savings-left h4 {
+    width: 199%;
+  }
+  .savings-left p {
+    width: 100%;
+  }
+  .saving-left-btn {
+    width: 100%;
+  }
+  .savings-right {
+    width: 100%;
+  }
+  .read h4 {
+    width: 100%;
+    font-size: 45px;
+    font-weight: 100;
+  }
+  .read p {
+    width: 100%;
+  }
+  .story-image-container {
+    flex-direction: column;
+  }
+  .story-image-container,
+  .story-img-right,
+  .story-text-right,
+  .story-text-right h4 {
+    width: 100%;
+  }
+  .story-img-left,
+  .story-text {
+    width: 100%;
+  }
+  .story-text-down,
+  .story-img-down {
+    width: 100%;
+  }
+  .story-text-down-right,
+  .story-img-down2 {
+    width: 100%;
+  }
+  .story-text,
+  .story-text-right,
+  .story-text-down,
+  .story-text-down-right {
+    height: 300px;
+  }
+
+  .value-logo {
+    gap: 20px;
+  }
+  .newsletter {
+    flex-direction: column;
+  }
+  .newsletter-text {
+    width: 100%;
+    padding: 50px 50px;
+  }
+  .newsletter-text h4 {
+    width: 100%;
+  }
+  .newsletter-text p {
+    width: 100%;
+  }
+}
+@media (max-width: 620px) {
+  * {
+    max-width: 100%;
+  }
+  .home-content {
+    padding-left: 50px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 90px;
+  }
+  .home-content h1 {
+    font-size: 40px;
+  }
+  .home-content h3 {
+    width: 85%;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .loan-btn {
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 20px;
+    width: 80%;
+    margin-left: 50px;
+  }
+  .savings-btn {
+    display: block;
+    padding: 18px 20px;
+    width: 80%;
+    margin-left: 50px;
+  }
+  .section {
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  .section h4 {
+    font-weight: 300;
+    width: 70%;
+  }
+  .next p {
+    font-size: 35px;
+    padding: 50px;
+    font-weight: 200;
+  }
+  .loan-sect {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .loan-img {
+    height: 300px;
+    width: 100%;
+    padding-bottom: 50px;
+    padding: 200px;
+  }
+  .loan-content {
+    width: 100%;
+  }
+  .loan-content h4 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .loan-content p {
+    width: 100%;
+  }
+  .loan-content button {
+    width: 100%;
+  }
+  .empty {
+    display: none;
+  }
+  .about-us {
+    height: 500px;
+    margin-top: 430px;
+  }
+  .about-us-content {
+    height: 100px;
+    width: 100%;
+  }
+  .about-us p {
+    width: 100%;
+  }
+  .about-us button {
+    width: 80%;
+  }
+  .savings {
+    flex-direction: column;
+  }
+  .savings-left {
+    width: 100%;
+    height: 600px;
+  }
+  .savings-left h4 {
+    width: 199%;
+  }
+  .savings-left p {
+    width: 100%;
+  }
+  .saving-left-btn {
+    width: 100%;
+  }
+  .savings-right {
+    width: 100%;
+  }
+  .read h4 {
+    width: 100%;
+    font-size: 45px;
+    font-weight: 100;
+  }
+  .read p {
+    width: 100%;
+  }
+  .story-image-container {
+    flex-direction: column;
+  }
+  .story-text,
+  .story-text-right,
+  .story-text-down,
+  .story-text-down-right {
+    height: 400px;
+  }
+  .story-image-container,
+  .story-img-right,
+  .story-text-right,
+  .story-text-right h4 {
+    width: 100%;
+  }
+  .story-img-left,
+  .story-text {
+    width: 100%;
+  }
+  .story-text-down,
+  .story-img-down {
+    width: 100%;
+  }
+  .story-text-down-right,
+  .story-img-down2 {
+    width: 100%;
+  }
+  .value-logo {
+    gap: 20px;
+  }
+  .newsletter {
+    flex-direction: column;
+  }
+  .newsletter-text {
+    width: 100%;
+    padding: 50px 20px;
+  }
+  .newsletter-text h4 {
+    width: 100%;
+  }
+  .newsletter-text p {
+    width: 100%;
+  }
+  .contacts {
+    flex-direction: column;
+  }
+  .contacts p {
+    width: 100%;
+  }
+  .contact {
+    width: 70%;
+  }
+}

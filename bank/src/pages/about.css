@@ -1,0 +1,514 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.responsive-navbar {
+  display: none;
+  background: black;
+}
+.responsive-navbar a {
+  font-size: 30px;
+  display: block;
+  text-align: left;
+  margin-bottom: 0px;
+  padding: 15px 20px;
+  color: #fff;
+  border-bottom: 1px solid #2b2b2b;
+}
+.menu {
+  border: none;
+  background: none;
+  font-size: 15px;
+  color: white;
+  padding-top: 10px;
+  font-weight: bold;
+  display: none;
+}
+.aboutheader {
+  background: url(../assets/aboutbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+}
+.nav-links {
+  padding-top: 10px;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 20px;
+  color: white;
+  margin-bottom: 100px;
+  gap: 100px;
+}
+.nav-content a {
+  margin-left: 20px;
+  color: white;
+}
+
+.about-content h3 {
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  line-height: 1.2;
+  letter-spacing: -1px;
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 300;
+}
+.about-content h1 {
+  font-style: normal;
+  font-size: 90px;
+  font-size: 5rem;
+  letter-spacing: -2px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+  font-family: BuenosAiresWeb, Avenir, Futura, sans-serif;
+  font-weight: 500;
+}
+.ourstory {
+  display: flex;
+}
+.ourstory h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.story {
+  background: white;
+  width: 50%;
+  padding: 40px;
+  text-align: center;
+}
+.people {
+  background: white;
+  width: 50%;
+  padding: 40px;
+  text-align: center;
+  background-color: #e9e9e9;
+}
+.mission {
+  display: flex;
+}
+.mission-text {
+  width: 50%;
+  background-color: #f5eb5f;
+  padding: 50px;
+}
+.mission-text h3 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.mission-text p {
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 1.125rem;
+  width: 85%;
+  padding-right: 20px;
+}
+.mission-text span {
+  color: #ff8769;
+}
+.mission-img {
+  background: url(../assets/abouthappy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 703px;
+}
+.where-you-fit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.where-you-fit h1 {
+  font-weight: 300;
+  font-size: 2.625rem;
+  margin-bottom: 100px;
+}
+.fit-container {
+  display: flex;
+  justify-content: space-around;
+}
+.for-each {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  flex-wrap: wrap;
+}
+.for-each img {
+  width: 100px;
+  margin-bottom: 50px;
+  height: 100px;
+}
+.for-each h3 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+.for-each p {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+.for-each span {
+  color: #ff8769;
+}
+.result{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #FF8769;
+    display: block;
+    position: relative;
+}
+.result h3{
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}
+.result p{
+    margin-bottom: 30px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: white;
+  width: 60%;
+  margin-left: 250px;
+  margin-right: 200px;
+}
+/* Value section */
+.values {
+    padding: 50px;
+    background: silver;
+  }
+  .values h4 {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .value-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .logo1 {
+    background: url(../assets/banklogo1.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+  }
+  .logo2 {
+    background: url(../assets/banklogo2.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+  }
+  .logo3 {
+    background: url(../assets/banklogo3.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+  }
+  .logo4 {
+    background: url(../assets/banklogo4.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+  }
+  .logo5 {
+    background: url(../assets/banklogo5.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+  }
+  .loan-savings {
+    text-align: center;
+    padding: 50px;
+  }
+  .ourloan-btn {
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  .oursavings-btn {
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .ourloan-btn:hover {
+    background: white;
+    color: black;
+  }
+  .oursavings-btn:hover {
+    background: black;
+    color: white;
+  }
+  /* Newsletter */
+  .newsletter {
+    display: flex;
+  }
+  .newsletter-text {
+    background-color: #ff8769;
+    width: 50%;
+    padding: 50px;
+    color: white;
+  }
+  .newsletter-text h4 {
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 2.25rem;
+  }
+  .newsletter-text p {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+  .newsletter-text a {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: underline;
+  }
+  .newsletter-text a:hover {
+    color: black;
+  }
+  .newsletter-form {
+    padding: 50px;
+  }
+  .newsletter-form input {
+    padding: 10px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  .newsletter-form button{
+    padding: 20px;
+    background: #ff8769;
+    color: white;
+    border-radius: 5px;
+    border-color: #ff8769 ;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .newsletter-form button:hover{
+    background: black;
+    border-color: black;
+  }
+  /* Contacts */
+  .contacts {
+    display: flex;
+    padding: 50px;
+    gap: 80px;
+  }
+  .contacts h4 {
+    margin-bottom: 50px;
+  }
+  .contacts p {
+    margin-bottom: 30px;
+    width: 50%;
+    line-height: 25px;
+  }
+  .contacts h6 {
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  .contacts a:hover {
+    text-decoration: underline;
+  }
+  .contacts a {
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+  }
+  .contact {
+    width: 25%;
+  }
+  .info-link {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .contacts h4::after {
+    display: block;
+    content: "";
+    width: 60px;
+    border-bottom: 2px solid #d2d2d2;
+    margin-top: 15px;
+  }
+
+
+  @media (max-width: 1200px) {
+    * {
+      max-width: 100%;
+    }
+    .nav-content {
+      text-align: left;
+      vertical-align: middle;
+      margin-bottom: 50px;
+    }
+    .about-content h1 {
+      font-size: 50px;
+      padding: 50px;
+      margin-bottom: 0px;
+    }
+    .about-content h3 {
+      width: 75%;
+      font-weight: 300;
+      line-height: 1.2;
+      letter-spacing: -1px;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      display: none;
+    }
+    .menu {
+      display: flex;
+    }
+    .our-story{
+        width: 100%;
+    }
+    .mission{
+        flex-direction: column;
+    }
+    .mission-text{
+        width: 100%;
+    }
+    .mission-img{
+        width: 100%;
+    }
+    .fit-container{
+        display: block;
+    }
+    .for-each{
+        display: inline-block;
+        width: 40%;
+        margin-bottom: 50px;
+    }
+    .result p{
+        margin-left: 150px;
+    }
+    .value-logo {
+      gap: 20px;
+    }
+    .newsletter{
+      flex-direction: column;
+    }
+    .newsletter-text{
+      width: 100%;
+      padding: 50px 50px;
+    }
+    .newsletter-text h4{
+      width: 100%;
+    }
+    .newsletter-text p{
+      width: 100%;
+    }
+  }
+  @media (max-width: 620px) {
+    * {
+        max-width: 100%;
+      }
+      .nav-content {
+        text-align: left;
+        vertical-align: middle;
+        margin-bottom: 50px;
+      }
+      .about-content h1 {
+        font-size: 35px;
+        padding: 50px;
+        font-weight: 600;
+        margin-bottom: 0px;
+      }
+      .about-content h3 {
+        width: 75%;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: -1px;
+        color: #fff;
+        margin-left: 30px;
+        margin-right: 0px;
+        font-size: 1.3rem;
+      }
+      .nav-links {
+        display: none;
+      }
+      .menu {
+        display: flex;
+      }
+      .our-story{
+          width: 100%;
+      }
+      .mission{
+          flex-direction: column;
+      }
+      .mission-text{
+          width: 100%;
+      }
+      .mission-img{
+          display: block;
+          height: 300px;
+      }
+      .fit-container{
+          display: block;
+      }
+      .where-you-fit h1{
+        text-align: center;
+      }
+      .for-each{
+          display: inline-block;
+          width: 100%;
+          margin-bottom: 50px;
+      }
+      .result p{
+          margin-left: 40px;
+          width: 80%;
+      }
+      .value-logo {
+        gap: 20px;
+      }
+      .newsletter{
+        flex-direction: column;
+      }
+      .newsletter-text{
+        width: 100%;
+        padding: 50px 50px;
+      }
+      .newsletter-text h4{
+        width: 100%;
+      }
+      .newsletter-text p{
+        width: 100%;
+      }
+      .contact{
+        width: 100%;
+      }
+    }
