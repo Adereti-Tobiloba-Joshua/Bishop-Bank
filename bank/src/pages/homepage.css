@@ -232,7 +232,7 @@
   width: 80%;
 }
 .savings-left p {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   text-align: left;
   font-size: 20px;
   line-height: 30px;
@@ -304,7 +304,7 @@
   margin-bottom: 30px;
   text-align: LEFT;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 20px;
 }
 .story-text a {
   color: black;
@@ -333,7 +333,7 @@
   margin-bottom: 30px;
   text-align: LEFT;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 20px;
 }
 .story-text-right a {
   color: black;
@@ -361,7 +361,7 @@
   margin-bottom: 30px;
   text-align: LEFT;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 20px;
 }
 .story-text-down a {
   color: black;
@@ -383,7 +383,7 @@
   margin-bottom: 30px;
   text-align: LEFT;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 20px;
 }
 .story-text-down-right a {
   color: black;
